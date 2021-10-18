@@ -1,0 +1,87 @@
+/*
+
+  Order of precedence:
+   - CSS styles
+    1. Inline CSS
+    2. Internal CSS
+    3. External CSS
+    (4. Default CSS)
+   - CSS selectors
+     1. Id selectors
+     2. Class selectors
+     3. Tag selectors
+
+  - Especially when the CSS rule is applied to the
+    same CSS property of the same HTML element!
+
+  CSS best practice(s):
+   - Make sure all of the properties of a given CSS
+     rule, or multiple CSS rules, are in alphabetical
+     order
+
+  Types of css selectors:
+   - NOTE: Any html element can have more than one class,
+           but it can only have one id - not multiple ids
+   - Tag selectors
+   - Class selectors; * you can have as many instances of
+                        a particular class name inside any
+                        of your (html web) pages
+                      * used to group elements that are all
+                        going to behave in a similar way or,
+                        rather, have a similar style. For
+                        example, if you have a blog website,
+                        your comments will probably have a
+                        similar - if not the same - style
+                        so, in that case, the elements
+                        responsible for displaying your
+                        comments should/would have the
+                        same class (value)
+                      * ultimately, use classes when you want
+                        to apply the same style to a group of
+                        related items ...
+   - Id selectors; * you can only have a single instance
+                     of one particular id name inside a
+                     single (html web) page
+                   * used to identify elements where there
+                     is only a single one of them on a
+                     particular (html web) page like a
+                     navbar, for example, because you're
+                     probably only going to have one navigation
+                     bar on a given (html web) page
+                   * ... and use an id to apply a specific style to a
+                     single element on your (html web) page
+   - Pseudo(-classes) selectors; * present because html elements can
+                                   can have different states (i.e.
+                                   hovering over a piece of text or
+                                   image etc.)
+                                 * take note of the different types of
+                                   pseduo-classes; the ones with one colon
+                                   (e.g. :hover etc.) and the ones with two
+                                   colons (::before or ::after etc.)
+   - NOTE: Some of the HTML tags have pre-defined CSS styles that are applied
+           by the browser as can be seen in the Chrome Developer tools within
+           the "user agent stylesheet". These default styles can be overriden
+           by using tag, class and/or id selectors of your choice (and heart's
+           desire)
+
+*/
+
+/* External CSS */
+
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+}
+
+h1, h3 {
+  color: #66BFBF;
+  letter-spacing: 3px;
+}

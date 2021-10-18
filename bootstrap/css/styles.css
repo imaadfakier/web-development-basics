@@ -1,0 +1,243 @@
+body {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Montserrat', sans-serif; */
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* h1, h3 {
+    font-size: 3.5rem;
+} */
+
+.colored-section {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+}
+
+.white-section {
+    background-color: #FFFFFF;
+}
+
+.container-fluid {
+    /* padding: 3% 15%; */
+    /* padding: 3% 15% 7%; */
+    padding: 7% 15%;
+}
+
+/**********************************************************************************************************************/
+
+/* #title {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+} */
+
+/* #title {
+    text-align: left;
+}*/
+
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+/* .container-fluid { */
+    /* padding: 3% 15%; */
+    /* padding: 3% 15% 7%;
+} */
+
+/* h1 { */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-size: 3rem; */
+    /* font-size: 3.5rem; */
+    /* line-height: 1.5; */
+    /* font-weight: 900; */
+/* } */
+
+.navbar {
+    /* padding-bottom: 4.5rem; */
+    padding: 0 0 4.5rem;
+    /* padding: 0 0 0 4.5rem; */
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* margin: 0; */
+    margin: 0 !important;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-img {
+    /* width: 60%; */
+    width: 21%;
+    transform: rotate(25deg);
+    /* position: relative; */
+    position: absolute;
+    /* z-index: -1; */
+    /* right: 30%; */
+    right: 25%;
+}
+
+/**********************************************************************************************************************/
+
+#features {
+    /* padding: 7rem; */
+    /* padding: 7% 15%; */
+    /* text-align: center; */
+    /* background-color: #FFFFFF; */
+    /* position: absolute; */
+    position: relative;
+    /* z-index: 1; */
+}
+
+/* #features .container-fluid {
+    padding: 0;
+} */
+
+/* #features .row {
+    text-align: center;
+} */
+
+/* #features .row > div { */
+#features .row > * {
+    padding: 5%;
+}
+
+#features i {
+    color: #EF8172;
+    /* font-size: 3.5rem; */
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+    color: #FF4C68;
+}
+
+#features h3 {
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-weight: bold; */
+    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
+    /* padding: 15px 0 5px; */
+}
+
+#features p {
+    color: #8F8F8F;
+}
+
+/**********************************************************************************************************************/
+
+#testimonials {
+    /* padding: 7% 15%; */
+    /* text-align: center; */
+    background-color: #EF8172;
+    /* color: #FFFFFF; */
+}
+
+h2 {
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-weight: bold; */
+    font-size: 3rem;
+    /* line-height: 1.5; */
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #EF8172;
+    /* text-align: center; */
+    /* padding-bottom: 3%; */
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* .carousel-item {
+    padding: 7% 15%;
+} */
+
+/**********************************************************************************************************************/
+
+/* #pricing {
+    padding: 100px; */
+    /* text-align: center; */
+/* } */
+
+/* #pricing .row > * */
+#pricing .row > div {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+        /* transform: rotate(0); */
+        width: 60%;
+    }
+}
+
+/**********************************************************************************************************************/
+
+/* #cta { */
+    /* background-color: #FF4C68; */
+    /* text-align: center; */
+    /* padding: 7% 15%; */
+/* } */
+
+#cta h3 {
+    /* color: #FFFFFF; */
+    /* font-weight: bold; */
+    font-size: 3.5rem;
+    /* padding-top: 50px; */
+    /* line-height: 1.5; */
+}
+
+/**********************************************************************************************************************/
+
+/* #footer { */
+    /* background-color: #FFFFFF; */
+    /* text-align: center; */
+    /* padding: 75px 0 25px; */
+    /* padding: 7% 15%; */
+/* } */
+
+#footer i {
+    /* margin: 0px 10px 20px; */
+    /* margin: 20px 10px; */
+    margin: 20px 10px 20px;
+}
+
+#footer p {
+    color: #8F8F8F;
+}

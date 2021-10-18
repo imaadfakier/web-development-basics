@@ -1,0 +1,191 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+
+body {
+    color: #40514E;
+    font-family: "Merriweather", serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    /* px vs.
+       % vs.
+       em vs.
+       rem */
+    font-size: 5.625rem;
+    /* line-height: 2; */
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h1,
+h2,
+h3 {
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+h2,
+h3,
+a {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    line-height: 2;
+    /* width: 30%;
+    margin: auto; */
+}
+
+/* .top-container, */
+.middle-container,
+.bottom-container {
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    /* line-height: 2; */
+    padding-top: 100px;
+    position: relative;
+}
+
+/* .top-container h2 {
+    margin: 0 auto auto;
+} */
+
+.middle-container {
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    /* padding-bottom: 0; */
+    padding: 50px 0;
+    margin: 100px auto 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    bottom: 300px;
+    left: 300px;
+    position: absolute;
+}
+
+.skill-row {
+    /* line-height: 2; */
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+/* .skills-text {
+    text-align: left;
+} */
+
+.gif-two {
+    float: left;
+    padding-right: 30px;
+    /* margin-right: 30px; */
+}
+
+.gif-three {
+    float: right;
+    padding-left: 30px;
+    /* margin-left: 30px; */
+}
+
+.gif-two,
+.gif-three {
+    /* height: 50% */
+    height: 100%;
+    width: 25%;
+}
+
+/* .gif2-skills-text {
+    clear: left;
+}
+
+.gif3-skills-text {
+    clear: right;
+} */
+
+.gif-one {
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.profile-text {
+    margin: auto;
+    width: 30%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  height: 0;
+  margin: 100px auto;
+  width: 5%;
+}
+
+.contact-me p {
+    margin-bottom: 30px;
+}
+
+.contact-me-message {
+    width: 40%;
+    margin: auto;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: auto 25px;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.footer-copyright-text {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin: 25px auto 0;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   background-color: #66BFBF;
+   border: none;
+   border-radius: 8px;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+}
+
+.btn:hover {
+   background-color: #2BC4AD;
+}
